@@ -1,0 +1,20 @@
+@mixin boldtext {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+@mixin paragraphtext($opacity) {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: $opacity;
+}

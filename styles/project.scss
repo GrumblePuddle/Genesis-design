@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'functions';
+@import 'header';
+
+
+
+body {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+footer {
+    @extend header;
+    position: static;
+    bottom: 0;
+    margin-bottom: 47px;
+}

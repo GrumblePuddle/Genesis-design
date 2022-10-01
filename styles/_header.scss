@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    li {
+        list-style-type: none;
+        display: inline-block;
+        @include boldtext;
+        margin-left: 20px;
+        a {
+            text-decoration: none;
+            color: $textcolor;
+        }
+    }
+}
