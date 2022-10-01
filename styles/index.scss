@@ -52,7 +52,7 @@
 .section-3 {
     margin-top: 91px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .section-3-left {
@@ -68,11 +68,11 @@
 }
 
 .section-3-mid {
-    align-self: flex-end;
+    align-self: center;
     li {
         list-style-type: none;
-        
         @include paragraphtext(0.6);
+        line-height: 29px;
     }
 }
 
@@ -87,15 +87,16 @@
 }
 
 .section-4-grid {
+    margin-top: 51px;
+    margin-bottom: 58px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    .grid-item {
-        border: 1px solid black;
-    }
+    grid-row-gap: 20px;
+
     .grid-item-1 {
         grid-area: 1 / 1 / 2 / 2;
-        h4 {
+        h3 {
             font-family: $font-family;
             font-style: normal;
             font-weight: 700;
@@ -114,10 +115,30 @@
         grid-area: 1 / 4 / 2 / 5;
         p {
             @include paragraphtext(0.6);
+            max-width: 185px;
+            width: 100%;
+        }
+        p:first-child {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #111111;
         }
     }
+
     .grid-item-4 {
         grid-area: 1 / 5 / 2 / 6;
+        p {
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: right;
+            color: $textcolor;
+        }
     }
     .grid-item-5 {
         grid-area: 2 / 3 / 3 / 4;
@@ -127,8 +148,22 @@
     }
     .grid-item-6 {
         grid-area: 2 / 4 / 3 / 5;
+        p {
+            @include paragraphtext(0.6);
+            max-width: 185px;
+            width: 100%;
+        }
     }
     .grid-item-7 {
         grid-area: 2 / 5 / 3 / 6;
+        p {
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: right;
+            color: $textcolor;
+        }
     }
 }
