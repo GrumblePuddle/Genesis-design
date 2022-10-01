@@ -1,3 +1,9 @@
+body {
+  max-width: 1150px;
+  width: 100%;
+  margin: auto;
+}
+
 header, footer {
   display: flex;
   justify-content: space-between;
@@ -24,14 +30,51 @@ header li a, footer li a {
   color: #111111;
 }
 
-body {
-  max-width: 1150px;
-  width: 100%;
-  margin: auto;
-}
-
 footer {
   position: static;
   bottom: 0;
   margin-bottom: 47px;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1-left {
+  max-width: 620px;
+}
+.section-1-left h3 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.423077px;
+  color: #4A4FF2;
+}
+.section-1-left h1 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+}
+.section-1-left h1 span {
+  color: #4A4FF2;
+}
+
+.section-1-right {
+  align-self: flex-end;
+}
+.section-1-right p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }/*# sourceMappingURL=index.css.map */

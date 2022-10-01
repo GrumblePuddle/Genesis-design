@@ -1,19 +1,44 @@
 @import 'variables';
 @import 'functions';
+@import 'body';
 @import 'header';
+@import 'footer';
 
 
 
-body {
-    max-width: 1150px;
-    width: 100%;
-    margin: auto;
+.section-1 {
+    display: flex;
+    justify-content: space-between;
 }
 
-footer {
-    @extend header;
-    position: static;
-    bottom: 0;
-    margin-bottom: 47px;
+.section-1-left {
+    max-width: 620px;
+    h3 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.423077px;
+        color: #4A4FF2;
+    }
+    h1 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #111111;
+        span {
+            color: #4A4FF2;
+        }
+    }
+}
+
+.section-1-right {
+    align-self: flex-end;
+    p {
+        @include paragraphtext(0.6)
+    }
 }
 

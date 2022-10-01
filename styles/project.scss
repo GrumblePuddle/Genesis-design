@@ -1,18 +1,6 @@
 @import 'variables';
 @import 'functions';
+@import 'body';
 @import 'header';
+@import 'footer';
 
-
-
-body {
-    max-width: 1150px;
-    width: 100%;
-    margin: auto;
-}
-
-footer {
-    @extend header;
-    position: static;
-    bottom: 0;
-    margin-bottom: 47px;
-}
