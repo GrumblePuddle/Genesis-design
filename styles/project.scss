@@ -58,5 +58,8 @@
 }
 
 .section-3 {
-    
+    margin-top: 45px;
+    p {
+        @include paragraphtext(0.8);
+    }
 }
