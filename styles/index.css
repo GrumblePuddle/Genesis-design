@@ -37,6 +37,8 @@ footer {
   margin-top: 114px;
 }
 
+/*Main section starts here*/
+/*Large title and transparent text*/
 .section-1 {
   display: flex;
   justify-content: space-between;
@@ -80,10 +82,12 @@ footer {
   opacity: 0.6;
 }
 
+/*Grid images*/
 .section-2 {
   margin-top: 144px;
 }
 
+/*Large bold text and 2 lists section*/
 .section-3 {
   margin-top: 91px;
   display: flex;
@@ -116,6 +120,7 @@ footer {
   line-height: 29px;
 }
 
+/*Grid texts with dates*/
 .section-4 {
   margin-top: 101px;
 }

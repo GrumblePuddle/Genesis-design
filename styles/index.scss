@@ -6,10 +6,17 @@
 
 
 
+
+
+/*Main section starts here*/
+
+/*Large title and transparent text*/
 .section-1 {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .section-1-left {
     max-width: 620px;
@@ -35,6 +42,8 @@
     }
 }
 
+
+
 .section-1-right {
     align-self: flex-end;
     p {
@@ -45,15 +54,32 @@
 
 
 
+
+
+
+
+/*Grid images*/
+
 .section-2 {
     margin-top: 144px;
 }
 
+
+
+
+
+
+
+
+
+/*Large bold text and 2 lists section*/
 .section-3 {
     margin-top: 91px;
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .section-3-left {
     h2 {
@@ -67,6 +93,8 @@
     }
 }
 
+
+
 .section-3-mid {
     align-self: center;
     li {
@@ -76,15 +104,24 @@
     }
 }
 
+
+
 .section-3-right {
     @extend .section-3-mid;
 }
 
 
 
+
+
+
+
+/*Grid texts with dates*/
+
 .section-4 {
     margin-top: 101px;
 }
+
 
 .section-4-grid {
     margin-top: 51px;
