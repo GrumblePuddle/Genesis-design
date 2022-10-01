@@ -251,4 +251,10 @@ footer {
   color: #111111;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+.section-4 {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=project.css.map */

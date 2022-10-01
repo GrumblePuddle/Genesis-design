@@ -63,3 +63,9 @@
         @include paragraphtext(0.8);
     }
 }
+
+.section-4 {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
