@@ -4,3 +4,59 @@
 @import 'header';
 @import 'footer';
 
+.section-1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-1 {
+    h1 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: $textcolor;
+        max-width: 450px;
+        width: 100%;
+    }
+    p {
+        @include paragraphtext(0.8);
+        max-width: 625px;
+    }
+}
+
+.flexbox-2 {
+    max-width: 400px;
+    width: 100%;
+    .flex-item-1 {
+        @include flexbox-2-items;
+    }
+    .flex-item-2 {
+        @include flexbox-2-items;
+    }
+    .flex-item-3 {
+        @include flexbox-2-items;
+    }
+    .flex-item-4 {
+        @include flexbox-2-items;
+    }
+    .flex-item-5 {
+        @include flexbox-2-items;
+    }
+    .flex-item-6 {
+        @include flexbox-2-items;
+    }
+}
+
+.section-2 {
+    margin-top: 61px;
+    img {
+        width: 100%;
+    }
+}
+
+.section-3 {
+    
+}

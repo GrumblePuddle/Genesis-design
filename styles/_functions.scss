@@ -18,3 +18,25 @@
     mix-blend-mode: normal;
     opacity: $opacity;
 }
+
+@mixin flexbox-2-items {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    margin-top: 13px;
+     p {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+        color: $textcolor;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    p:last-child {
+        @include boldtext();
+        max-width: 200px;
+        width: 100%;
+    }
+}

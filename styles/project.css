@@ -35,4 +35,206 @@ footer {
   bottom: 0;
   margin-bottom: 47px;
   margin-top: 114px;
+}
+
+.section-1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexbox-1 h1 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #111111;
+  max-width: 450px;
+  width: 100%;
+}
+.flexbox-1 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 625px;
+}
+
+.flexbox-2 {
+  max-width: 400px;
+  width: 100%;
+}
+.flexbox-2 .flex-item-1 {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 13px;
+}
+.flexbox-2 .flex-item-1 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.flexbox-2 .flex-item-1 p:last-child {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  max-width: 200px;
+  width: 100%;
+}
+.flexbox-2 .flex-item-2 {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 13px;
+}
+.flexbox-2 .flex-item-2 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.flexbox-2 .flex-item-2 p:last-child {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  max-width: 200px;
+  width: 100%;
+}
+.flexbox-2 .flex-item-3 {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 13px;
+}
+.flexbox-2 .flex-item-3 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.flexbox-2 .flex-item-3 p:last-child {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  max-width: 200px;
+  width: 100%;
+}
+.flexbox-2 .flex-item-4 {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 13px;
+}
+.flexbox-2 .flex-item-4 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.flexbox-2 .flex-item-4 p:last-child {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  max-width: 200px;
+  width: 100%;
+}
+.flexbox-2 .flex-item-5 {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 13px;
+}
+.flexbox-2 .flex-item-5 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.flexbox-2 .flex-item-5 p:last-child {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  max-width: 200px;
+  width: 100%;
+}
+.flexbox-2 .flex-item-6 {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  margin-top: 13px;
+}
+.flexbox-2 .flex-item-6 p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.flexbox-2 .flex-item-6 p:last-child {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  max-width: 200px;
+  width: 100%;
+}
+
+.section-2 {
+  margin-top: 61px;
+}
+.section-2 img {
+  width: 100%;
 }/*# sourceMappingURL=project.css.map */
