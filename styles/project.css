@@ -1,1 +1,37 @@
-/*# sourceMappingURL=project.css.map */
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+header li, footer li {
+  list-style-type: none;
+  display: inline-block;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+  margin-left: 20px;
+}
+header li a, footer li a {
+  text-decoration: none;
+  color: #111111;
+}
+
+body {
+  max-width: 1150px;
+  width: 100%;
+  margin: auto;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  margin-bottom: 47px;
+}/*# sourceMappingURL=project.css.map */
