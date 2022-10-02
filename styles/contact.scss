@@ -5,15 +5,15 @@
 @import 'footer';
 
 
+
+/*Main starts here*/
+/*First section*/
 .section-1 {
     display: flex;
     justify-content: space-between;
 
 }
 
-.flex-item {
-    
-}
 
 .flex-item-1 {
     max-width: 440px;
@@ -31,6 +31,8 @@
         @include paragraphtext(0.8);
     }
 }
+
+
 
 .flex-item-2 {
     align-self: flex-end;
@@ -74,6 +76,12 @@
     }
 }
 
+
+
+
+
+
+/*Second section*/
 .section-2 {
     margin-top: 180px;
     img {

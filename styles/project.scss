@@ -4,11 +4,19 @@
 @import 'header';
 @import 'footer';
 
+
+
+/*Main starts here*/
+/*First section*/
 .section-1 {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
 
 .flexbox-1 {
     h1 {
@@ -26,6 +34,8 @@
         max-width: 625px;
     }
 }
+
+
 
 .flexbox-2 {
     max-width: 400px;
@@ -50,6 +60,11 @@
     }
 }
 
+
+
+
+
+/*Second section*/
 .section-2 {
     margin-top: 61px;
     img {
@@ -57,6 +72,10 @@
     }
 }
 
+
+
+
+/*Third section*/
 .section-3 {
     margin-top: 45px;
     p {
@@ -64,6 +83,11 @@
     }
 }
 
+
+
+
+
+/*Fourth section*/
 .section-4 {
     margin-top: 45px;
     display: flex;

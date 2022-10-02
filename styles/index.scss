@@ -156,12 +156,12 @@
             width: 100%;
         }
         p:first-child {
-            font-family: 'Mulish';
+            font-family: $font-family;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 20px;
-            color: #111111;
+            color: $textcolor;
         }
     }
 

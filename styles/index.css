@@ -12,6 +12,7 @@ header, footer {
   position: sticky;
   top: 0;
   background-color: white;
+  z-index: 1;
 }
 header li, footer li {
   list-style-type: none;
@@ -172,7 +173,7 @@ footer {
   width: 100%;
 }
 .section-4-grid .grid-item-3 p:first-child {
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
